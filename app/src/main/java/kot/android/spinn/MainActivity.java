@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         spinner = findViewById(R.id.spinner);
-        spinner.setPrompt("Hello");
         numbers.add(0, "Select numbers");
         numbers.add("1");
         numbers.add("2");
